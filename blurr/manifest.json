@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Blur Sensitive Words",
+  "version": "1.0",
+  "description": "Blurs words like 'spoiler' on pages",
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {}
+}
